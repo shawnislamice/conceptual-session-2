@@ -1,0 +1,66 @@
+/* Shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nav styles start here*/
+header{
+    background-color: #9376e0;
+}
+nav{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid; */
+    justify-content: space-between;
+}
+.nav-container img{
+    width: 80px;
+    object-fit: cover;
+}
+.nav-container{
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.nav-container p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.special{
+    color: #e893cf;
+    font-weight: 900;
+}
+.items-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.items-container a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-weight: 600;
+}
+.login{
+    padding: 10px 20px;
+    background-color: #e893cf;
+    border-radius: 5px;
+}
+.login a{
+    color: black;
+    font-weight: 600;
+}
+
+/* Nav styles end here */
